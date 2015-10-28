@@ -1,0 +1,17 @@
+{
+	"name": "lco",
+	"authors": [
+		{
+			"name": "Eric",
+			"email": "ericluwj@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.6"
+	},
+	"extra": {
+		"installer-paths": {
+			"application/vendor/{$name}": ["vendor/package"]
+		}
+	}
+}
